@@ -20,8 +20,11 @@ try:
     if NameIsCorrect == ("Non"):
         Name = str(input("Entre ton prénom : "))
     print("Salut, " + Name)
+    sleep(1)
     print("Nous allons faire une leçon sur Python")
+    sleep(1)
     print("Lorsque tu verras ce symbole : \" /!\ \", fais attention au point montré !")
+    sleep(1)
     print("")
     print("Menu")
     print("")
