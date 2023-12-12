@@ -52,9 +52,8 @@ try:
             EnteredNIP = int(input("Entrez le PIN : "))
             if EnteredNIP == ErRoRR:
                 Chapitre2Modules()
-            Chapitre1Bases()
-                elif EnteredNIP == 0000:
-                    break
+            elif EnteredNIP == 0000:
+                break
 
     if ChapterChoice == 3:
         while True:
