@@ -38,9 +38,12 @@ try:
     ChapterChoice = int(input("Entrez votre choix : "))
 
     if ChapterChoice == 1:
-        EnteredNIP = int(input("Entrez le PIN : "))
-        if EnteredNIP == NIPCode:
-            Chapitre1Bases()
+        while True:
+            EnteredNIP = int(input("Entrez le PIN : "))
+            if EnteredNIP == NIPCode:
+                Chapitre1Bases()
+            elif EnteredNIP == 0000:
+                break
 
     if ChapterChoice == 2:
         print("/!\ Il semblerait que la phase d'identification soit corrompue.")
