@@ -6,6 +6,7 @@ from time import sleep
 try:
 
 ###DefCours
+    ErRoRR = ("54343431425434343425486346965445425465476768464341325209393954")
     def Chapitre1Bases():
         print("Bienvenue dans le chapitre 1, qui porte sur les bases, " + Name + " !")
 
@@ -40,6 +41,23 @@ try:
         EnteredNIP = int(input("Entrez le PIN : "))
         if EnteredNIP == NIPCode:
             Chapitre1Bases()
+
+    if ChapterChoice == 2:
+        print("/!\ Il semblerait que la phase d'identification soit corrompue.")
+        print("/!\ Cherchez dans ce script le code de la variable ErRoRR")
+        EnteredNIP = int(input("Entrez le PIN : "))
+        if EnteredNIP == ErRoRR:
+            Chapitre2Modules()
+
+    if ChapterChoice == 3:
+        EnteredNIP = int(input("Entrez le PIN : "))
+        if EnteredNIP == NIPCode:
+            Chapitre3Apres()
+
+    if ChapterChoice == 4:
+        EnteredNIP = int(input("Entrez le PIN : "))
+        if EnteredNIP == NIPCode:
+            Chapitre2EtEnsuite()
 
 
 ###Except
