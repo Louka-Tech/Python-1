@@ -14,6 +14,9 @@ try:
     NameIsCorrect = str(int("Le prénom " + Name + " est il le tien ? : "))
     if NameIsCorrect == ("Non"):
         Name = str(input("Entre ton prénom : "))
+    print("Salut, " + Name)
+    print("Nous allons faire une leçon sur Python")
+    print("")
 
 ###Except
 except KeyboardInterrupt:
