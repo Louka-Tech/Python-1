@@ -7,7 +7,7 @@ try:
 
 ###DefCours
     def Chapitre1Bases():
-        print("Bienvenue dans le chapitre 1, qui porte sur les bases" + Name + " !")
+        print("Bienvenue dans le chapitre 1, qui porte sur les bases, " + Name + " !")
 
 ###CodeMenu
     print("Salut !")
