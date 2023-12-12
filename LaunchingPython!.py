@@ -25,6 +25,7 @@ try:
     sleep(1)
     print("Lorsque tu verras ce symbole : \" /!\ \", fais attention au point montré !")
     sleep(1)
+    NIPCode = (1401)
     print("")
     print("Menu")
     print("")
