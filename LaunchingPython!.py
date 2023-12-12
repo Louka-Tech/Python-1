@@ -46,21 +46,31 @@ try:
                 break
 
     if ChapterChoice == 2:
-        print("/!\ Il semblerait que la phase d'identification soit corrompue.")
-        print("/!\ Cherchez dans ce script le code de la variable ErRoRR")
-        EnteredNIP = int(input("Entrez le PIN : "))
-        if EnteredNIP == ErRoRR:
-            Chapitre2Modules()
+        while True:
+            print("/!\ Il semblerait que la phase d'identification soit corrompue.")
+            print("/!\ Cherchez dans ce script le code contenu dans la variable ErRoRR")
+            EnteredNIP = int(input("Entrez le PIN : "))
+            if EnteredNIP == ErRoRR:
+                Chapitre2Modules()
+            Chapitre1Bases()
+                elif EnteredNIP == 0000:
+                    break
 
     if ChapterChoice == 3:
-        EnteredNIP = int(input("Entrez le PIN : "))
-        if EnteredNIP == NIPCode:
-            Chapitre3Apres()
-
+        while True:
+            EnteredNIP = int(input("Entrez le PIN : "))
+            if EnteredNIP == NIPCode:
+                Chapitre3Apres()
+            elif EnteredNIP == 0000:
+                break
+                
     if ChapterChoice == 4:
-        EnteredNIP = int(input("Entrez le PIN : "))
-        if EnteredNIP == NIPCode:
-            Chapitre2EtEnsuite()
+        while True:
+            EnteredNIP = int(input("Entrez le PIN : "))
+            if EnteredNIP == NIPCode:
+                Chapitre4EtEnsuite()
+            elif EnteredNIP == 0000:
+                break
 
 
 ###Except
