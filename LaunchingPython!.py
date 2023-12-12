@@ -31,6 +31,15 @@ try:
     print("Chapitre 1 : Les bases")
     print("Chapitre 2 : Modules")
     print("Chapitre 3 : Après...")
+    print("Chapitre 4 : Et ensuite...")
+
+    ChapterChoice = int(input("Entrez votre choix : "))
+
+    if ChapterChoice == 1:
+        EnteredNIP = int(input("Entrez le PIN : "))
+        if EnteredNIP == NIPCode:
+            Chapitre1Bases()
+
 
 ###Except
 except KeyboardInterrupt:
