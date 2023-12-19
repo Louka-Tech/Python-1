@@ -1,1 +1,2 @@
-print("bonjour")
+Texte = str(input("Entrez un texte : "))
+print(Texte)
