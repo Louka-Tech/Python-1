@@ -1,1 +1,1 @@
-print("Go on the bed")
+print("Bienvenue sur Calculator")
